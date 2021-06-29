@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <section class="imc">
+    <div class="imc-container">
+      <h2>Calculadora de IMC</h2>
+      <input type="number" class="peso" placeholder="Peso (em KG)">
+      <input type="number" class="altura" placeholder="Altura (em Metros)">
+      <input type="submit" class="enviar" value="Calcular IMC">
+      <input type="number" class="resultado" placeholder="Resultado">
+    </div>
+  </section>
+  <section class="bhaskara">
+    <div class="bhaskara-container">
+      <h2>Calculadora de bháskara</h2>
+      <input type="number" placeholder="informe o valor de a" class="valorA">
+      <input type="number" placeholder="informe o valor de b" class="valorB">
+      <input type="number" placeholder="informe o valor de c" class="valorC">
+      <input type="submit" class="enviar-bhaskara" value="Calcular Bháskara">
+      <!--<input type="text" class="resultado-bhaskara" placeholder="Resultado">-->
+      <p>O valor de delta é igual a: <span class="valorDelta"></span></p>  
+      <p>X linha é igual a: <span class="valorX1Linha"></span></p>  
+      <p>X II linha é igual a: <span class="valorX2Linha"></span></p>  
+      <p class="deltaZero" style="color: red;"> </p>
+    </div>
+  </section>
+</body>
+<script src="script.js"></script>
+</html>

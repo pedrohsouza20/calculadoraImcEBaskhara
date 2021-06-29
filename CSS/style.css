@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+input:focus{
+  outline: 0;
+  box-shadow: 0;
+}
+section{
+  padding: 15px;
+}
+h2{
+  padding: 5px;
+  color: red;
+}
+input{
+  display: block;
+  width: 200px;
+  padding: 10px;
+  margin: 2px 0;
+}
+.enviar-bhaskara{
+  margin-bottom: 12px;
+}
+.bhaskara-container p{
+  font-size: 1.125em;
+  background: #73fdff;
+  padding: 5px;
+}
+.bhaskara-container .deltaZero{
+  font-size: 1.5em;
+}
